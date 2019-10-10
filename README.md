@@ -30,15 +30,15 @@ Launch the simulator, which connect to the `./ExtendedKF` executable right away.
 
 The following is an image of the simulator:
 
-![Simulator without data](images/simulator.png)
+![Simulator without data](./images/simulator.PNG)
 
 Here is the simulator final state after running the EKL with dataset 1:
 
-![Simulator with dataset 1](images/simulator1.png)
+![Simulator with dataset 1](./images/simulator1.PNG)
 
 Here is the simulator final state after running the EKL with dataset 2:
 
-![Simulator with dataset 2](images/simulator2.png)
+![Simulator with dataset 2](/images/simulator2.PNG)
 
 # Rubric
 
@@ -65,7 +65,7 @@ The Kalman filter implementation can be found [src/kalman_filter.cpp](./src/kalm
 
 ### Your Kalman Filter algorithm handles the first measurements appropriately.
 
-The first measurement is handled at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L49-83).
+The first measurement is handled at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L49).
 
 ### Your Kalman Filter algorithm first predicts then updates.
 
